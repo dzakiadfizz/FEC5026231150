@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to bottom, #2b98f0, #0000ff);
+    color: yellow;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .logo-img {
+    width: auto;
+    height: 100px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  h1 {
+    font-size: 24px;
+    color: yellow;
+  }
+  
+  p {
+    color: orange;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  
+  a.button {
+    display: block;
+    width: 300px; 
+    margin: 10px auto; 
+    padding: 15px 20px;
+    background-color: red;
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid yellow;
+    border-radius: 40px;
+    font-weight: normal; 
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  a.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  
+  
